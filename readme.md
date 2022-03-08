@@ -7,7 +7,7 @@ Heroku App Link - https://project1lasttry.herokuapp.com/
 
 [![Development Workflow] (https://github.com/Charansd84/is601p1lasttry/blob/master/.github/workflows/dev.yml)]
 
-* [Developmental Deployment] (https://devprojectapp.herokuapp.com/)
+* [Developmental Deployment] (https://is601project1new.herokuapp.com/)
 
 ## Setting up CI/CD
 
