@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Page 2</title>
+  <title>Page 4</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,35 +13,109 @@
 </head>
 <body>
 
-<div class="container-fluid p-5 bg-primary text-white text-center">
-  <h1>Docker</h1>
-  <p>Docker User name - Sai84</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: Yellow;
+  }
+  </style>
+</head>
+<body>
+
+<div class="p-5 bg-primary text-white text-center">
+  <h1 style="background-color:Green;">Working of the Calculator Program</h1>
+  <p style="background-color:pink;">Demonstrating the principles of OOP principles : Encaspsulation, Inheritance, Polymorphism, and Abstraction</p>
 </div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Encapsulation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Inheritance</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Polymorphism</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Abstraction</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Containers</h3>
-      <p>A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. </p>
+      <h2 style="background-color:Orange;">Encapsulation</h2>
+      <h5></h5>
+      <div class="fakeimg">Encapsulation, <br><br>
+      IS-A (Inheritance), <br><br>
+      HAS-A (Composition) </div>
+      <p style="background-color: Red;">When we want to hide some data from other objects or we want to restrict access to some methods and variables. <br> The concept of Encapsulation helps us to prevent direct manipulation or modification of data.<br> Only, the function has access to private data.<br> We hide attributes by making them private. In Python, we hide it by placing underscore as the prefix for the attribute, i.e single “ _ “ or double “ __“</p>
+      <h3 class="mt-4">References</h3>
+      <p>Links</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">pythonbaba.com</a>
+        </li><br>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">programiz.com</a>
+        </li><br>
+          <a class="nav-link active" href="#">GreeksforGreeks.com </a>
+              <li class="nav-item"><br> </li>
+        <br>  <a class="nav-link active" href="#">Mycode.com</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
     </div>
-    <div class="col-sm-4">
-      <h3>Images</h3>
-      <p>The default docker images will show all top level images, their repository and tags, and their size.
+    <div class="col-sm-8">
+      <h2 style="background-color:Brown;">Inheritance</h2>
+      <h5 style="background-color:Green;">Inheritance is a powerful feature in object oriented programming.
 
-Docker images have intermediate layers that increase reusability, decrease disk usage, and speed up docker build by allowing each step to be cached. These intermediate layers are not shown by default.
+</h5>
+      <div class="fakeimg">It refers to defining a new class with little or no modification to an existing class. The new class is called derived (or child) class and the one from which it inherits is called the base (or parent) class.</div>
+      <p style="background-color:Violet;">The function declaration begins with a def keyword then a space followed by the name of the function. <br>
 
-The SIZE is the cumulative space taken up by the image and all its parent images. This is also the disk space used by the contents of the Tar file created when you docker save an image.
+It is recommended to not to name a function same as a built-in function in Python (such as len()) otherwise that built-in function will be overridden and lost.
+<br>
+Next, comes a pair of parentheses with arguments separated by a comma. These arguments are inputs to the function. You can use these inputs inside the function for your task.
+<br>
+After this, a colon (:) to mark end of the function header.
+<br><br>
+The function body is indented and starts with an optional docstring.
 
-An image will be listed more than once if it has multiple repository names or tags. This single image (identifiable by its matching IMAGE ID) uses up the SIZE listed only once.</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>My docker Link</h3>
-      <p>docker push sai84/project1lasttry:tagname</p>
+docstring in a human-readable statement that describes what the function does. It serves no purpose to the logic of the program.</p>
+
+
+      <h2 class="mt-5">Polymorphism</h2>
+      <h5 style="background-color:Brown;">Polymorphism is a very important concept in programming. It refers to the use of a single type entity (method, operator or object) to represent different types in different scenarios.</h5>
+      <div class="fakeimg">The literal meaning of polymorphism is the condition of occurrence in different forms.</div>
+
+      <p style="background-color:Brown;">Like in other programming languages, the child classes in Python also inherit methods and attributes from the parent class. We can redefine certain methods and attributes specifically to fit the child class, which is known as Method Overriding.
+
+Polymorphism allows us to access these overridden methods and attributes that have the same name as the parent class.</p>
     </div>
   </div>
 </div>
 
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p style="background-color:Orange;">Abstraction</p>
+  <p>Abstraction in Python is the process of hiding the real implementation of an application from the user and emphasizing only on how to use the application</p>
+</div>
+
 </body>
 </html>
+
 
 {% endblock %}
