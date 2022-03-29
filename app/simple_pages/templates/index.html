@@ -6,44 +6,234 @@
 <html lang="en">
 <head>
   <title>Introduction</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
 
-<div class="container-fluid p-5 bg-primary text-white text-center">
-  <h1>This page contains the information about the following</h1>
-  <p>About bootstrap, Github, Docker, Heroku</p>
-</div>
-
+<!DOCTYPE html>
+<html>
+<head>
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Bootstrap</h3>
-      <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. </p>
-      <p>It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+      <h3 style="background-color:Plum;">             Caluclator Program</h3>
+      <p style="background-color:Tan;">Using Object Oriented Programming Principles </p>
+      <p style="background-color:Tan;"> This page contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
     </div>
-    <div class="col-sm-4">
-      <h3>Github</h3>
-      <p>GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.</p>
-      <p>It offers the distributed version control and source code management functionality of Git, plus its own features.</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Docker</h3>
-      <p>Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. The service has both free and premium tiers.</p>
-      <p>The software that hosts the containers is called Docker Engine. It was first started in 2013 and is developed by Docker, Inc.</p>
-    </div>
-      </div>
-    <div class="col-sm-4">
-      <h3>Heroku</h3>
-      <p>One of the first cloud platforms, Heroku has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.</p>
-      <p>Heroku is a cloud platform as a service supporting several programming languages. </p>
-    </div>
-  </div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
 </div>
 
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 10</div>
+  <img src="img_nature_wide.jpg" style="width:100%">
+  <div class="text">Caluclator</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="img_snow_wide.jpg" style="width:100%">
+  <div class="text">AAA testing</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">OOPs</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 10</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Encapsulation</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 10</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Inheritance</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 10</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Polymorphism</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 10</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Abstraction</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 10</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">SOLID</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 10</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Unit Testing</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 10</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Design Patterns</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+   <span class="dot" onclick="currentSlide(6)"></span>
+   <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+     <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+</div>
+<p>I have designed a calculator </p>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</script>
+
+<footer style="background-color:Plum;">
+  <p>Author: Sai Charan Degala</p>
+  <p><a href="mailto:hege@example.com">Email - sd84@njit.edu</a></p>
+</footer>
+
+
+</div>
+</html>
 </body>
 </html>
 
